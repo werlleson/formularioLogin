@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #121433;
+}
+.container-form-global{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    width: 900px;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 0 0 10px 10px;
+    border: 0;
+
+    background-color: #6d4bfc;
+}
+
+/* 
+   Banner de login
+*/
+
+.box-banner-img{
+    
+}
+
+/* 
+Formulario onde digitar os dados
+*/
+
+.box-login {
+ 
+}
+.box-login h1 {
+    font-family: "Arial";
+    font-size: 34px;
+    font-weight: 500;   
+    margin-bottom: 80px;
+
+    text-align: center;
+    color: #fff;
+}
+.form-login-grup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* campos para digitar as informações */
+.form-login-grup input {
+    width: 100%;
+    padding: 10px 5px 10px 13px;
+
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    color: #000000;
+}
+
+/* button */
+
+.btn-login {
+    
+    padding: 10px 22px;
+    margin-bottom: 20px;
+
+    border: none;
+    border: 0;
+    border-radius: 10px;
+
+    background-color: #3bb670;
+    color: #fff;
+    cursor: pointer;
+}
+
+.msg_error{
+    color: #ff6d6d;
+    display: flex;
+    justify-content: center;
+}
